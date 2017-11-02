@@ -1,6 +1,6 @@
 {
   "name": "mstsc.ts",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "GPL-3.0",
   "scripts": {
     "ng": "ng",
@@ -10,7 +10,19 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuzheng/mstsc.ts.git"
+  },
+  "keywords": [
+    "mstsc",
+    "node",
+    "windows",
+    "rdp"
+  ],
+  "bugs": {
+    "url": "https://github.com/liuzheng/mstsc.ts/issues"
+  },
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
